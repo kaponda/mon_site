@@ -1,0 +1,107 @@
+#bloc_page
+ {text-align:left;
+ margin:auto;
+ width:100%;
+ }
+header
+ {
+   background-color:green;	 
+   border: 1px blue groove;
+   border-radius: 5px;
+   height: 10%;
+   width:100%;
+   
+ }
+#titre-principale,#definition
+ { display:inline-block;
+ }
+ #titre-principale
+ {
+ padding-left:5%;	 
+ text-shadow:0px 0px 5px red;
+ }
+ #definition 
+ {	 
+  padding-left:50%;
+ }
+ /*  Supprime  Les styles  appliqués  par  défaut   aux Listes.  S'applique  également  à  la  sous-Liste  */
+.nav {
+list-style:  none  none;
+margin:  0;
+padding-left:0;
+line-height:1;
+}
+.nav a {
+display: inline-block;
+padding:.5em;
+color: blue;
+background: white;
+text-decoration : none;
+}
+.nav a:hover {color:red;}
+.nav a:focus {
+color: green;
+background:  #ffc;
+text-decoration:  underline;
+}
+.nav-item {
+/*float: left;  Pour que Les liens s'affichent horizontalement */
+display:inline-block;
+padding-left:5%;
+position: relative; /* Crée un contexte de positionnement pour Les sous-Listes */
+}
+.sub-nav {
+display: none; /* Masque La sous-Liste */
+position: absolute; /* Evite que La dimension du conteneur ne change quand La sous-Liste est affichée */
+left: 40%; /* FIX IE7 : pour que Le sous-menu s'aligne avec son conteneur */
+top: 1.5em; /* FIX IE7 : pour que Le sous-menu s'aligne avec son conteneur, on Le positionne explicitement en bas du conteneur*/
+white-space: nowrap; /* Pour que Le texte ne revienne pas à La Ligne */
+background: white; /* FIX I£7 : évite que La sous-liste ne disparaisse au moment où Le curseur arrive au-dessus */
+margin-top:-1px; /* Pour que le sous-menu recouvre son parent, facilitant le passage de la souris de l'un à L'autre */
+}
+.nav-item:hover .sub-nav {
+display: block; /* Affiche cette sous-Liste au survol de son conteneur */
+}
+.sub-nav-item a:hover{color:red;}
+.sub-nav-item a:focus{color:green;}
+  div.bloc
+ {padding:10px;
+ margin:10px;
+ height:500px;
+ width:55%;
+ border:1px blue groove;
+ display:inline-block;
+ vertical-align:middle;
+ text-align:left;
+ overflow:auto;
+ }
+ div.bloc1
+ {padding:10px;
+ margin:10px;
+ height:500px;
+ width:15%;
+ border:1px blue groove;
+ display:inline-block;
+ vertical-align:middle;
+ text-align:left;
+ overflow:auto;
+ }
+ footer
+  {background-color:green;
+  border: 1px blue groove;
+  border-radius: 5px;
+  height: 22%;
+  width:100%;
+  }
+  #edition_lbi,#condition_de_vente,#frais_de_livraison
+  {display: inline-block;
+  }
+  #edition_lbi
+  {padding-left: 15%;
+  }
+  #condition_de_vente
+  {padding-left: 15%;
+  }
+  #frais_de_livraison
+  {padding-left: 15%;
+  }

@@ -1,0 +1,146 @@
+#bloc_page
+ {
+ margin:auto;
+ }
+ @media all and (max-width:1080px)
+{  
+     header
+	 {font-size: 1em;
+	  width:auto;}
+	 
+   .bloc1
+    	 {width:auto;
+		 margin-right:50px;
+	  font-size: 1em;}
+   .bloc 
+   	 {width:auto;
+	 margin-right:50px;
+	  font-size: 1em;}
+     .bloc2
+    	 {width:auto;
+		 margin-right:50px;
+	  font-size: 1em;}
+	
+
+	#titre-principale
+	 {width:auto;
+	  font-size: 1em;}
+	#definition
+	 {width:auto;
+	  font-size: 1em;}
+	.nav a
+	 {font-size: 1em;}
+    .sub-nav a
+	 {font-size: 1em;}
+    
+    footer
+	 {font-size: 1em;
+	  width:auto;}
+}
+header
+ {
+   background-color:green;	 
+   border: 1px blue groove;
+   border-radius: 5px;
+   height: 10%;
+   width:95%;
+    
+ }
+#titre-principale,#definition
+ { display:inline-block;
+ }
+ #titre-principale
+ {
+ padding-left:5%;	 
+ text-shadow:0px 0px 5px red;
+  
+ }
+ #definition 
+ {	 
+  padding-left:20%;
+   
+ }
+ /*  Supprime  Les styles  appliqués  par  défaut   aux Listes.  S'applique  également  à  la  sous-Liste  */
+.nav {
+list-style:  none  none;
+margin:  0;
+padding-left:0;
+line-height:1;
+}
+.nav a {
+display: inline-block;
+padding:.5em;
+color: blue;
+background: white;
+text-decoration : none;
+}
+.nav a:hover {color:red;}
+.nav a:focus {
+color: green;
+background:  #ffcc66;
+text-decoration:  underline;
+}
+
+.nav-item {
+display:inline-block;
+padding-left:5%;
+position: relative; /* Crée un contexte de positionnement pour Les sous-Listes */
+}
+
+.bloc1, .bloc, .bloc2
+{
+	display:inline-block;
+ }
+  div.bloc
+ {padding:10px;
+ margin:10px;
+ height:500px;
+ width:55%;
+ border:1px blue groove;
+ vertical-align:top;
+ text-align:left;
+ overflow:auto;
+ }
+ div.bloc1
+ {	 
+ padding:10px;
+ margin:10px;
+ height:500px;
+ width:15%;
+ border:1px blue groove;
+ vertical-align:top;
+ text-align:left;
+ overflow:auto;
+ }
+ div.bloc2
+ {	 
+ padding:10px;
+ margin:10px;
+ height:500px;
+ width:15%;
+ border:1px blue groove;
+ vertical-align:top;
+ text-align:left;
+ overflow:auto;
+ }
+ 
+
+ footer
+  {background-color:green;
+  border: 1px blue groove;
+  border-radius: 5px;
+  height: 22%;
+  width:95%;
+  }
+  #edition_lbi,#condition_de_vente,#frais_de_livraison
+  {display: inline-block;
+  }
+  #edition_lbi
+  {padding-left: 15%;
+  }
+  #condition_de_vente
+  {padding-left: 15%;
+  }
+  #frais_de_livraison
+  {padding-left: 15%;
+  }

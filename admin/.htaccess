@@ -1,0 +1,4 @@
+AuthName "Page de connection"
+AuthType Basic
+AuthUserFile "C:\wamp64\www\kaponda1.3\mon_site\admin\.htpasswd"
+Require valid-user
